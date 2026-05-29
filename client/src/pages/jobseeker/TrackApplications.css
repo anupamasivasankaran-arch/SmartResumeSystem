@@ -1,0 +1,288 @@
+/* src/pages/jobseeker/TrackApplications.css */
+
+.tracking-page {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* HEADER */
+
+.tracking-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 35px;
+
+    border-radius: 30px;
+
+    background:
+        linear-gradient(145deg,
+            rgba(22, 34, 61, 0.96),
+            rgba(15, 23, 42, 0.92));
+}
+
+.tracking-header h1 {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+.tracking-header p {
+    color: #94a3b8;
+}
+
+/* STATUS */
+
+.tracking-status {
+
+    padding: 14px 24px;
+
+    border-radius: 16px;
+
+    background:
+        rgba(182, 255, 184, 0.15);
+
+    color: #b6ffb8;
+
+    font-weight: 700;
+}
+
+/* CARD */
+
+.tracking-card {
+
+    background:
+        linear-gradient(145deg,
+            rgba(22, 34, 61, 0.96),
+            rgba(15, 23, 42, 0.92));
+
+    border-radius: 30px;
+
+    padding: 35px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 35px;
+}
+
+/* TOP */
+
+.tracking-top {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 24px;
+}
+
+.tracking-logo {
+
+    width: 85px;
+
+    height: 85px;
+
+    border-radius: 24px;
+
+    background: white;
+
+    color: #081120;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 40px;
+
+    font-weight: 900;
+}
+
+/* STEPS */
+
+.tracking-steps {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+}
+
+.tracking-step {
+
+    padding: 14px 18px;
+
+    border-radius: 14px;
+
+    background:
+        rgba(255, 255, 255, 0.05);
+
+    font-weight: 700;
+}
+
+.completed-step {
+
+    background:
+        rgba(182, 255, 184, 0.15);
+
+    color: #b6ffb8;
+}
+
+.review-step {
+
+    background:
+        rgba(96, 165, 250, 0.15);
+
+    color: #60a5fa;
+}
+
+.tracking-line {
+
+    flex: 1;
+
+    min-width: 40px;
+
+    height: 2px;
+
+    background:
+        rgba(255, 255, 255, 0.08);
+}
+
+.active-line {
+    background: #60a5fa;
+}
+
+/* DETAILS */
+
+.tracking-details-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 24px;
+}
+
+.tracking-detail-card {
+
+    padding: 24px;
+
+    border-radius: 22px;
+
+    background:
+        rgba(255, 255, 255, 0.04);
+}
+
+.tracking-detail-card h3 {
+    margin-bottom: 12px;
+}
+
+.tracking-detail-card p {
+    color: #94a3b8;
+    line-height: 1.7;
+}
+
+/* ACTIVITY */
+
+.activity-section {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.activity-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 16px;
+
+    padding: 18px;
+
+    border-radius: 18px;
+
+    background:
+        rgba(255, 255, 255, 0.04);
+}
+
+.activity-dot {
+
+    width: 14px;
+
+    height: 14px;
+
+    border-radius: 50%;
+}
+
+.green-dot {
+    background: #22c55e;
+}
+
+.blue-dot {
+    background: #3b82f6;
+}
+
+.yellow-dot {
+    background: #facc15;
+}
+
+/* BUTTONS */
+
+.tracking-buttons {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.download-btn {
+
+    padding: 16px 24px;
+
+    border: none;
+
+    border-radius: 16px;
+
+    background: #b6ffb8;
+
+    color: #081120;
+
+    font-weight: 800;
+
+    cursor: pointer;
+}
+
+.back-btn {
+
+    padding: 16px 24px;
+
+    border: none;
+
+    border-radius: 16px;
+
+    background:
+        rgba(255, 255, 255, 0.06);
+
+    color: white;
+
+    font-weight: 800;
+
+    cursor: pointer;
+}

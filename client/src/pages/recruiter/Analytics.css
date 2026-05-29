@@ -1,0 +1,313 @@
+.analytics-page {
+    min-height: 100vh;
+    padding: 40px;
+
+    background:
+        linear-gradient(135deg,
+            #07111f,
+            #0f172a,
+            #111827);
+
+    color: white;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+
+.analytics-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.analytics-header h1 {
+    font-size: 68px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.analytics-header p {
+    color: #cbd5e1;
+    font-size: 20px;
+}
+
+/* TOP CARDS */
+
+.analytics-stats {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(240px, 1fr));
+
+    gap: 25px;
+
+    margin-bottom: 40px;
+}
+
+.analytics-card {
+    background:
+        rgba(17, 28, 49, 0.88);
+
+    border:
+        1px solid rgba(182, 255, 184, 0.18);
+
+    border-radius: 28px;
+
+    padding: 35px;
+
+    backdrop-filter: blur(16px);
+
+    text-align: center;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 10px 35px rgba(0, 0, 0, 0.35);
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.analytics-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 5px;
+
+    background: #7dff8c;
+}
+
+.analytics-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 0 35px rgba(182, 255, 184, 0.15);
+}
+
+.analytics-card h4 {
+    color: #dbe4ff;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.analytics-card h1 {
+    color: #b6ffb8;
+    font-size: 56px;
+    font-weight: 800;
+}
+
+/* REPORT SECTION */
+
+.analytics-report {
+    background:
+        rgba(17, 28, 49, 0.88);
+
+    border-radius: 30px;
+
+    padding: 35px;
+
+    margin-bottom: 35px;
+
+    backdrop-filter: blur(16px);
+
+    border:
+        1px solid rgba(255, 255, 255, 0.08);
+
+    box-shadow:
+        0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+.analytics-report h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 38px;
+}
+
+/* TABLE */
+
+.analytics-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.analytics-table th {
+    background: #1d2a45;
+
+    padding: 18px;
+
+    text-align: left;
+
+    color: #b6ffb8;
+
+    font-size: 17px;
+}
+
+.analytics-table td {
+    padding: 20px;
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.08);
+
+    color: #e2e8f0;
+
+    font-size: 16px;
+}
+
+.analytics-table tr:hover {
+    background:
+        rgba(255, 255, 255, 0.03);
+}
+
+/* PROGRESS */
+
+.progress-section {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(320px, 1fr));
+
+    gap: 25px;
+
+    margin-bottom: 35px;
+}
+
+.progress-card {
+    background:
+        rgba(17, 28, 49, 0.88);
+
+    border-radius: 28px;
+
+    padding: 30px;
+
+    border:
+        1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(16px);
+}
+
+.progress-card h3 {
+    margin-bottom: 18px;
+    font-size: 24px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 16px;
+
+    background: #1b2944;
+
+    border-radius: 30px;
+
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+
+    background:
+        linear-gradient(90deg,
+            #7dff8c,
+            #b6ffb8);
+
+    border-radius: 30px;
+}
+
+/* RECENT ACTIVITY */
+
+.activity-section {
+    background:
+        rgba(17, 28, 49, 0.88);
+
+    border-radius: 30px;
+
+    padding: 35px;
+
+    border:
+        1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(16px);
+}
+
+.activity-section h2 {
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.activity-item {
+    background: #1a2740;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 0.3s;
+}
+
+.activity-item:hover {
+    transform: translateX(5px);
+
+    background: #24324d;
+}
+
+.activity-left {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.activity-left h4 {
+    font-size: 18px;
+}
+
+.activity-left p {
+    color: #cbd5e1;
+    font-size: 15px;
+}
+
+.activity-badge {
+    background: #b6ffb8;
+
+    color: #081120;
+
+    padding: 8px 16px;
+
+    border-radius: 30px;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px) {
+
+    .analytics-page {
+        padding: 20px;
+    }
+
+    .analytics-header h1 {
+        font-size: 50px;
+    }
+
+    .analytics-table {
+        display: block;
+        overflow-x: auto;
+    }
+
+}

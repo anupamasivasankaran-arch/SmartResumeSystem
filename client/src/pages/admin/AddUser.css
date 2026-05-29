@@ -1,0 +1,116 @@
+.adduser-page {
+    min-height: 100vh;
+    background: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.adduser-card {
+    width: 100%;
+    max-width: 850px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    border-radius: 30px;
+    padding: 45px;
+    color: white;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+
+.adduser-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.adduser-header h1 {
+    font-size: 58px;
+    margin-bottom: 10px;
+}
+
+.adduser-header p {
+    color: #cbd5e1;
+    font-size: 18px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    background: #1e293b;
+    color: white;
+    font-size: 16px;
+}
+
+.form-group input::placeholder {
+    color: #94a3b8;
+}
+
+.password-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.eye-btn {
+    width: 60px;
+    height: 58px;
+    border: none;
+    border-radius: 16px;
+    background: #1e293b;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.generate-btn {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 16px;
+    background: #334155;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.generate-btn:hover {
+    background: #475569;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 16px;
+    background: #67e8f9;
+    color: #0f172a;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    background: #22d3ee;
+}

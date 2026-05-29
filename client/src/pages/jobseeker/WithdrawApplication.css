@@ -1,0 +1,291 @@
+/* PAGE */
+
+.withdraw-page {
+
+    flex: 1;
+
+    min-height: 100vh;
+
+    padding: 40px;
+
+    background:
+        linear-gradient(135deg,
+            #0f172a,
+            #172554,
+            #1e1b4b);
+
+    color: white;
+}
+
+/* HEADER */
+
+.withdraw-header {
+
+    margin-bottom: 40px;
+}
+
+.withdraw-header h1 {
+
+    font-size: 64px;
+
+    font-weight: 800;
+
+    margin-bottom: 10px;
+}
+
+.withdraw-header p {
+
+    font-size: 18px;
+
+    color: #cbd5e1;
+}
+
+/* CARD */
+
+.withdraw-card {
+
+    background:
+        linear-gradient(135deg,
+            rgba(30, 58, 138, 0.95),
+            rgba(23, 37, 84, 0.95));
+
+    border-radius: 35px;
+
+    padding: 40px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* COMPANY */
+
+.withdraw-company {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 35px;
+}
+
+.withdraw-logo {
+
+    width: 110px;
+
+    height: 110px;
+
+    background: white;
+
+    border-radius: 28px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.withdraw-logo img {
+
+    width: 75px;
+
+    height: 75px;
+
+    object-fit: contain;
+}
+
+.withdraw-company h2 {
+
+    font-size: 42px;
+
+    margin-bottom: 8px;
+}
+
+.withdraw-company h3 {
+
+    font-size: 24px;
+
+    color: #dbeafe;
+
+    margin-bottom: 15px;
+}
+
+.withdraw-meta {
+
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    color: #e2e8f0;
+}
+
+/* WARNING */
+
+.warning-box {
+
+    background:
+        rgba(239, 68, 68, 0.15);
+
+    border: 1px solid rgba(239, 68, 68, 0.4);
+
+    padding: 25px;
+
+    border-radius: 25px;
+
+    margin-bottom: 30px;
+}
+
+.warning-box h4 {
+
+    font-size: 24px;
+
+    margin-bottom: 12px;
+
+    color: #fecaca;
+}
+
+.warning-box p {
+
+    color: #f1f5f9;
+
+    line-height: 1.7;
+}
+
+/* REASON */
+
+.reason-box {
+
+    margin-bottom: 35px;
+}
+
+.reason-box h4 {
+
+    font-size: 24px;
+
+    margin-bottom: 18px;
+}
+
+.reason-box textarea {
+
+    width: 100%;
+
+    height: 180px;
+
+    border: none;
+
+    outline: none;
+
+    resize: none;
+
+    border-radius: 25px;
+
+    padding: 22px;
+
+    font-size: 17px;
+
+    background:
+        rgba(255, 255, 255, 0.08);
+
+    color: white;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.reason-box textarea::placeholder {
+
+    color: #cbd5e1;
+}
+
+/* BUTTONS */
+
+.withdraw-buttons {
+
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+.cancel-btn {
+
+    border: none;
+
+    padding: 18px 38px;
+
+    border-radius: 18px;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    background:
+        rgba(255, 255, 255, 0.1);
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+.cancel-btn:hover {
+
+    transform: translateY(-3px);
+}
+
+.withdraw-btn {
+
+    border: none;
+
+    padding: 18px 38px;
+
+    border-radius: 18px;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    background:
+        linear-gradient(135deg,
+            #ef4444,
+            #dc2626);
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+.withdraw-btn:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(239, 68, 68, 0.4);
+}
+
+/* MOBILE */
+
+@media(max-width:900px) {
+
+    .withdraw-header h1 {
+
+        font-size: 42px;
+    }
+
+    .withdraw-company h2 {
+
+        font-size: 30px;
+    }
+
+}

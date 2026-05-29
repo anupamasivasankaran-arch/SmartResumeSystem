@@ -1,0 +1,251 @@
+.recommended-page {
+
+    flex: 1;
+
+    padding: 40px;
+
+    color: white;
+
+    min-height: 100vh;
+
+    background: #0b1023;
+
+}
+
+/* TOP */
+
+.recommended-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 40px;
+
+    gap: 20px;
+
+}
+
+.recommended-top h1 {
+
+    font-size: 55px;
+
+    margin-bottom: 10px;
+
+}
+
+.recommended-top p {
+
+    color: #bfc8e2;
+
+    font-size: 18px;
+
+}
+
+/* SEARCH */
+
+.recommended-search {
+
+    width: 320px;
+
+    padding: 18px 20px;
+
+    border: none;
+
+    outline: none;
+
+    border-radius: 18px;
+
+    background: #151c3b;
+
+    color: white;
+
+    font-size: 16px;
+
+}
+
+/* GRID */
+
+.recommended-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+
+    gap: 30px;
+
+}
+
+/* CARD */
+
+.professional-job-card {
+
+    background: #151c3b;
+
+    border-radius: 28px;
+
+    padding: 30px;
+
+    transition: 0.3s;
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+
+}
+
+.professional-job-card:hover {
+
+    transform: translateY(-8px);
+
+    background: #1a2348;
+
+}
+
+/* TOP */
+
+.job-card-top {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    margin-bottom: 25px;
+
+}
+
+.job-card-top img {
+
+    width: 70px;
+
+    height: 70px;
+
+    border-radius: 18px;
+
+    background: white;
+
+    padding: 12px;
+
+}
+
+.job-card-top h2 {
+
+    font-size: 28px;
+
+    margin-bottom: 8px;
+
+}
+
+.job-card-top h4 {
+
+    color: #bfc8e2;
+
+    font-size: 18px;
+
+}
+
+/* INFO */
+
+.job-info-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+
+    color: #dbe4ff;
+
+    font-size: 16px;
+
+}
+
+/* TYPE */
+
+.job-type {
+
+    display: inline-block;
+
+    padding: 10px 18px;
+
+    border-radius: 30px;
+
+    background: #24346b;
+
+    margin-bottom: 25px;
+
+    font-size: 15px;
+
+}
+
+/* BUTTONS */
+
+.job-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+}
+
+.apply-btn {
+
+    flex: 1;
+
+    padding: 16px;
+
+    border: none;
+
+    border-radius: 16px;
+
+    background: linear-gradient(135deg, #2997ff, #1e40af);
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+}
+
+.save-btn {
+
+    padding: 16px 24px;
+
+    border: none;
+
+    border-radius: 16px;
+
+    background: #24346b;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px) {
+
+    .recommended-top {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+    .recommended-search {
+
+        width: 100%;
+
+    }
+
+}
