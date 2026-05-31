@@ -29,7 +29,7 @@ function PostJobs() {
         }
         try {
             await axios.post(
-                "http://localhost:5000/api/jobs",
+                "/api/resumes/upload",
                 {
                     title: jobTitle,
                     company: companyName,

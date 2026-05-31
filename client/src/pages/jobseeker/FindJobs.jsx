@@ -9,7 +9,7 @@ function FindJobs() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/jobs")
+      .get("/api/jobs")
       .then((res) => {
         setJobs(res.data);
       })

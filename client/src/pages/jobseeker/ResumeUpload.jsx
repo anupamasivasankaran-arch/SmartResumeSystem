@@ -50,7 +50,7 @@ function ResumeUpload() {
             );
 
             await axios.post(
-                "http://localhost:5000/api/resumes/upload",
+                "/api/resumes/upload",
                 formData,
                 {
                     headers: {
